@@ -4,7 +4,7 @@ metadata:
   name: cleanup
 spec:
   workspaces:
-    name: source
+    - name: source
   steps:
     - name: remove
       image: alpine:3
